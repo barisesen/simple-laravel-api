@@ -14,7 +14,7 @@ Kullanıcı giriş ve kayıttan sonra api_token döner.
 ### Login 
 
 	$.ajax({
-	    url      : 'http://token-api.dev/api/user/login',
+	    url      : 'https://simple-laravel-api.herokuapp.com/api/user/login',
 	    type     : "POST",
 	    data     : "email=iletisim@barisesen.com&password=password",
 	    headers: {
@@ -29,7 +29,7 @@ Kullanıcı giriş ve kayıttan sonra api_token döner.
 ### Register 
 
 	$.ajax({
-	    url      : 'http://token-api.dev/api/user/login',
+	    url      : 'https://simple-laravel-api.herokuapp.com/api/user/login',
 	    type     : "POST",
 	    data     : "name=baris&email=iletisim@barisesen.com&password=password",
 	    headers: {
@@ -45,7 +45,7 @@ Kullanıcı giriş ve kayıttan sonra api_token döner.
 ### Add New Note
 
 	$.ajax({
-	    url      : 'http://token-api.dev/api/notes',
+	    url      : 'https://simple-laravel-api.herokuapp.com/api/notes',
 	    type     : "POST",
 	    data     : "api_token=gFbAfiphLKzlz13wPHK89ezTsn446BSbzS2ZTId5v11ViKkdvw7ZK4sqrEhld&body=api test",
 	    headers: {
@@ -62,7 +62,7 @@ Kullanıcı giriş ve kayıttan sonra api_token döner.
 
 
 	$.ajax({
-	    url      : 'http://token-api.dev/api/notes?api_token=gFbAfiphLKzlz13wPHK89ezTsn446BSbzS2ZTId5v11ViKkdvw7ZK4sqrEhld',
+	    url      : 'https://simple-laravel-api.herokuapp.com/api/notes?api_token=gFbAfiphLKzlz13wPHK89ezTsn446BSbzS2ZTId5v11ViKkdvw7ZK4sqrEhld',
 	    type     : "GET",
 	    headers: {
 	        'Accept':'application/json'
@@ -78,7 +78,7 @@ Kullanıcı giriş ve kayıttan sonra api_token döner.
 
 
 	$.ajax({
-	    url      : 'http://token-api.dev/api/user/notes?api_token=gFbAfiphLKzlz13wPHK89ezTsn446BSbzS2ZTId5v1ViKkdvw7ZK4sqrEhld',
+	    url      : 'https://simple-laravel-api.herokuapp.com/api/user/notes?api_token=gFbAfiphLKzlz13wPHK89ezTsn446BSbzS2ZTId5v1ViKkdvw7ZK4sqrEhld',
 	    type     : "GET",
 	    headers: {
 	        'Accept':'application/json'
@@ -94,7 +94,7 @@ Kullanıcı giriş ve kayıttan sonra api_token döner.
 
 
 	$.ajax({
-	    url      : 'http://token-api.dev/api/notes/**:id**?api_token=gFbAfiphLKzlz13wPHK89ezTsn446BSbzS2ZTId5v1ViKkdvw7ZK4sqrEhld',
+	    url      : 'https://simple-laravel-api.herokuapp.com/api/notes/**:id**?api_token=gFbAfiphLKzlz13wPHK89ezTsn446BSbzS2ZTId5v1ViKkdvw7ZK4sqrEhld',
 	    type     : "GET",
 	    headers: {
 	        'Accept':'application/json'
@@ -110,7 +110,7 @@ Kullanıcı giriş ve kayıttan sonra api_token döner.
 
 
 	$.ajax({
-	    url      : 'http://token-api.dev/api/notes/**:id**',
+	    url      : 'https://simple-laravel-api.herokuapp.com/api/notes/**:id**',
 	    type     : "Delete",
 	    data 	 : "api_token=gFbAfiphLKzlz13wPHK89ezTsn446BSbzS2ZTId5v11ViKkdvw7ZK4sqrEhld",
 	    headers: {
@@ -126,7 +126,7 @@ Kullanıcı giriş ve kayıttan sonra api_token döner.
 
 
 	$.ajax({
-	    url      : 'http://token-api.dev/api/notes/**:id**',
+	    url      : 'https://simple-laravel-api.herokuapp.com/api/notes/**:id**',
 	    type     : "PATCH",
 	    data 	 : "api_token=gFbAfiphLKzlz13wPHK89ezTsn446BSbzS2ZTId5v11ViKkdvw7ZK4sqrEhld&body=updated post test",
 	    headers: {
