@@ -13,7 +13,6 @@ Kullanıcı giriş ve kayıttan sonra api_token döner.
 
 ### Login 
 
-
 	$.ajax({
 	    url      : 'http://token-api.dev/api/user/login',
 	    type     : "POST",
@@ -27,9 +26,7 @@ Kullanıcı giriş ve kayıttan sonra api_token döner.
 	    }
 	  });
 
-
 ### Register 
-
 
 	$.ajax({
 	    url      : 'http://token-api.dev/api/user/login',
