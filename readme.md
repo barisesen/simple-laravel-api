@@ -14,6 +14,7 @@ Kullanıcı giriş ve kayıttan sonra api_token döner.
 ### Login 
 
 ´´´javascript
+
 	$.ajax({
 	    url      : 'http://token-api.dev/api/user/login',
 	    type     : "POST",
@@ -26,11 +27,13 @@ Kullanıcı giriş ve kayıttan sonra api_token döner.
 	      console.log(resp);
 	    }
 	  });
+	  
 ´´´
 
 ### Register 
 
 ´´´javascript
+
 	$.ajax({
 	    url      : 'http://token-api.dev/api/user/login',
 	    type     : "POST",
