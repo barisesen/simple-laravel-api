@@ -13,7 +13,7 @@ Kullanıcı giriş ve kayıttan sonra api_token döner.
 
 ### Login 
 
-´´´javascript
+
 	$.ajax({
 	    url      : 'http://token-api.dev/api/user/login',
 	    type     : "POST",
@@ -26,11 +26,11 @@ Kullanıcı giriş ve kayıttan sonra api_token döner.
 	      console.log(resp);
 	    }
 	  });
-´´´
+
 
 ### Register 
 
-´´´javascript
+
 	$.ajax({
 	    url      : 'http://token-api.dev/api/user/login',
 	    type     : "POST",
@@ -43,10 +43,10 @@ Kullanıcı giriş ve kayıttan sonra api_token döner.
 	      console.log(resp);
 	    }
 	  });
-´´´
+
 
 ### Add New Note
-´´´javascript
+
 	$.ajax({
 	    url      : 'http://token-api.dev/api/notes',
 	    type     : "POST",
@@ -59,11 +59,11 @@ Kullanıcı giriş ve kayıttan sonra api_token döner.
 	      console.log(resp);
 	    }
 	  });
-´´´
+
 
 ### list All Notes
 
-´´´javascript
+
 	$.ajax({
 	    url      : 'http://token-api.dev/api/notes?api_token=gFbAfiphLKzlz13wPHK89ezTsn446BSbzS2ZTId5v11ViKkdvw7ZK4sqrEhld',
 	    type     : "GET",
@@ -75,11 +75,11 @@ Kullanıcı giriş ve kayıttan sonra api_token döner.
 	      console.log(resp);
 	    }
 	  });
-´´´
+
 
 ### list Only my Notes
 
-´´´javascript
+
 	$.ajax({
 	    url      : 'http://token-api.dev/api/user/notes?api_token=gFbAfiphLKzlz13wPHK89ezTsn446BSbzS2ZTId5v1ViKkdvw7ZK4sqrEhld',
 	    type     : "GET",
@@ -91,11 +91,11 @@ Kullanıcı giriş ve kayıttan sonra api_token döner.
 	      console.log(resp);
 	    }
 	  });
-´´´
+
 
 ### Show Note
 
-´´´javascript
+
 	$.ajax({
 	    url      : 'http://token-api.dev/api/notes/**:id**?api_token=gFbAfiphLKzlz13wPHK89ezTsn446BSbzS2ZTId5v1ViKkdvw7ZK4sqrEhld',
 	    type     : "GET",
@@ -107,11 +107,11 @@ Kullanıcı giriş ve kayıttan sonra api_token döner.
 	      console.log(resp);
 	    }
 	  });
-´´´
+
 
 ### Delete My Note
 
-´´´javascript
+
 	$.ajax({
 	    url      : 'http://token-api.dev/api/notes/**:id**',
 	    type     : "Delete",
@@ -124,10 +124,10 @@ Kullanıcı giriş ve kayıttan sonra api_token döner.
 	      console.log(resp);
 	    }
 	  });
-´´´
+
 ### Update My Note
 
-´´´javascript
+
 	$.ajax({
 	    url      : 'http://token-api.dev/api/notes/**:id**',
 	    type     : "PATCH",
@@ -140,4 +140,4 @@ Kullanıcı giriş ve kayıttan sonra api_token döner.
 	      console.log(resp);
 	    }
 	  });
-´´´
+
